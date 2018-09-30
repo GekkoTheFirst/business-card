@@ -1,2 +1,2 @@
-# the-business-card
-Personal Business Card
+# Business-Card
+My Personal Business Card
