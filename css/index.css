@@ -45,8 +45,18 @@ body {
 }
 
 .main-img {
-  margin: 2em 0;
+  margin: 2em 0 0 0;
   border-radius: 50%;
+}
+
+.name {
+  margin: 0 0 -0.8em 0;
+}
+
+.location {
+  text-align: center;
+  font-size: 0.8em;
+  color: #D3D3D3;
 }
 
 .pointer {
@@ -118,6 +128,10 @@ nav a:hover:before {
   text-align: left;
 }
 
+h2 p {
+  text-align: center;
+}
+
 .social {
   display: inline-block;
   position: relative;
@@ -150,4 +164,37 @@ nav a:hover:before {
 
 .social a:hover .tooltip{
   visibility: visible;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ol a {
+	color: #000;
+  text-decoration: underline;
+}
+
+ol li {
+  margin: 0 0 2em 5em;
+  position: relative;
+}
+
+li p {
+  padding-left: 60px;
+}
+
+li span {
+  font: bold italic 3em Helvetica, Verdana, sans-serif;
+  color: #D3D3D3;
+  position: absolute;
+}
+
+.insta-feed {
+  padding: 1.5em 0;
+
+}
+
+.instagram-media {
+  margin:0 auto!important;
 }
