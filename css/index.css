@@ -45,6 +45,7 @@ body {
 }
 
 .main-img {
+  width: 15em;
   margin: 2em 0 0 0;
   border-radius: 50%;
 }
@@ -59,10 +60,13 @@ body {
   color: #D3D3D3;
 }
 
+/* Make pointer blinking */
 .pointer {
+  animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
   border-right: 0.1em solid;
-  color: #000;
 }
+
+@keyframes blinker { to { opacity: 0; } }
 
 .text-link {
   text-decoration: underline;

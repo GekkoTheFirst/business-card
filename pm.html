@@ -6,7 +6,7 @@
     <title>Business Card</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/script.js"></script>
+    <script src="res/script.js"></script>
   </head>
 
   <body>
@@ -19,9 +19,41 @@
         <a href="pm.html" class="active">Contact</a>
       </nav>
       <!-- Main Text -->
-      <img class="main-img" src="images/me.jpg" alt="It's Me;)">
       <div class="body-text">
+        <h2>Contact details:</h2>
+        <section>
+          Email: alexei.vasko@outlook.com<br />
+          <br />
+          Phone: +4917634385473 (WhatsApp & Telegram)<br />
+        </section>
+        <!-- Contact form -->
+        <h2>Contact form:</h2>
+        <form class="container" method="post" action="send_form.php">
+  				<div class="" data-validate = "Name is required">
+  					<input class="" type="text" name="name" placeholder="Name">
+  					<span class=""></span>
+  				</div>
+  				<div class="" data-validate = "Valid email is required: ex@abc.xyz">
+  					<input class="" type="text" name="email" placeholder="Email">
+  					<span class=""></span>
+  				</div>
+  				<div class="" data-validate = "Subject is required">
+  					<input class="" type="text" name="subject" placeholder="Subject">
+  					<span class=""></span>
+  				</div>
+  				<div class="" data-validate = "Message is required">
+  					<textarea class="" name="message" placeholder="Message"></textarea>
+  					<span class=""></span>
+  				</div>
+  				<div class="">
+  					<button class="">
+  						<span>
 
+  							<i class="" aria-hidden="true"></i>
+  						</span>
+  					</button>
+  				</div>
+  			</form>
       </div>
       <!-- Social Media Buttons -->
       <div class="social">
