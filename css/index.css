@@ -15,14 +15,6 @@ body {
     margin: 0 0.3em;
   }
 
-  .form-text-input {
-    height: 10em;
-    width: 20em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    border:0.1em solid #D3D3D3;
-    font-size: 1em;
-  }
 }
 
 @media (min-width: 600px) {
@@ -38,14 +30,6 @@ body {
 		margin: 0 1em;
   }
 
-  .form-text-input {
-    height: 10em;
-    width: 40em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    border:0.1em solid #D3D3D3;
-    font-size: 1em;
-  }
 }
 
 @media (min-width: 1000px) {
@@ -61,13 +45,6 @@ body {
     margin: 0 1em;
   }
 
-  .form-text-input {
-    height: 10em;
-    width: 40em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    border:0.1em solid #D3D3D3;
-  }
 }
 
 .main-img {
@@ -227,37 +204,4 @@ li span {
 
 .instagram-media {
   margin:0 auto!important;
-}
-
-.form-input {
-  display:block;
-  font-size: 1em;
-  margin: 0.5em 0;
-  padding: 0.5em;
-  border-radius: 0.5em;
-	border:0.1em solid #D3D3D3;
-}
-
-input:focus, input:focus, textarea:focus {
-  border: 0.1em solid #000;
-}
-
-.form-button {
-  display:block;
-  margin-top: 2em;
-  font-size: 1em;
-  border-radius: 0.5em;
-	border:0.1em solid #D3D3D3;
-  padding: 0.5em 1.5em;
-  background: -webkit-linear-gradient(#32CD32, #3CB371);
-  color: #fff;
-}
-
-.form-button:hover {
-  background: -webkit-linear-gradient(#32CD32, #2E8B57);
-}
-
-.output {
-  display:block;
-  margin: 1em 0;
 }
