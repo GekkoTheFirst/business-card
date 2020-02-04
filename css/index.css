@@ -195,11 +195,11 @@ ol li::before {
   font-weight: bold;
   font-size: 2em;
   font-family: 'Georgia', serif;
-  content: "0" counter(my-counter);
+  content: "0" counter(my-counter)".";
 }
 
 li p {
-  padding-left: 3.5em;
+  padding-left: 4em;
 }
 
 li span {
