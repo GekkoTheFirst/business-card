@@ -175,6 +175,7 @@ h2 p {
 
 ol {
   list-style-type: none;
+  counter-reset: my-counter;
 }
 
 ol a {
@@ -185,10 +186,20 @@ ol a {
 ol li {
   margin: 0 0 2em -2em;
   position: relative;
+  font-size: 0.8em;
+  counter-increment: my-counter;
+}
+
+ol li::before {
+  position: absolute;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  content: "0" counter(my-counter);
 }
 
 li p {
-  padding-left: 60px;
+  padding-left: 3.5em;
 }
 
 li span {
@@ -199,7 +210,6 @@ li span {
 
 .insta-feed {
   padding: 1.5em 0;
-
 }
 
 .instagram-media {
