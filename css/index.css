@@ -135,6 +135,10 @@ nav a:hover:before {
   text-align: left;
 }
 
+.text-through {
+  text-decoration: line-through;
+}
+
 h2 p {
   text-align: center;
 }
